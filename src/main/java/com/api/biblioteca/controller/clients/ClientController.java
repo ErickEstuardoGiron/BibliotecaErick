@@ -16,7 +16,8 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/v1/clients")
+@RequestMapping("/v1/clientes")
+
 public class ClientController {
 
     @Autowired
