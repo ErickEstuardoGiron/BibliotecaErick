@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-@RequestMapping("/v1/books")
+@RequestMapping("/v1/book")
 public class BookController {
 
     @Autowired

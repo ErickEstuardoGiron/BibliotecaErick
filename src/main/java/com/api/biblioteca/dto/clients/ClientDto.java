@@ -7,17 +7,17 @@ public class ClientDto {
 
     private Long id;
 
-    @NotBlank(message = "Name cannot be blank")
+    @NotBlank(message = "Nombre no ingresado")
     private String name;
 
-    @NotBlank(message = "Last name cannot be blank")
+    @NotBlank(message = "Apellido No ingresado")
     private String last_name;
 
-    @NotBlank(message = "Email cannot be blank")
-    @Email(message = "Email should be valid")
+    @NotBlank(message = "Email no ingresado")
+    @Email(message = "Email no valido")
     private String email;
 
-    @NotBlank(message = "Phone number cannot be blank")
+    @NotBlank(message = "Numero de telefono no ingresado")
     private String phoneNumber;
 
     public ClientDto(Long id, String name, String last_name, String email, String phoneNumber) {

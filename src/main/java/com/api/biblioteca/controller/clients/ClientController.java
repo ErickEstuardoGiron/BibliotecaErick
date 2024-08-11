@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/v1/clientes")
+@RequestMapping("/v1/clients")
 
 public class ClientController {
 
